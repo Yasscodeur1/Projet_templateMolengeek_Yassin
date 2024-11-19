@@ -42,4 +42,19 @@ header .navbar .container-fluid .navbar-nav {
   margin-left: auto;
 }
 
+.featured {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featured span {
+  width: 10rem;
+  height: auto;
+  padding: 9px;
+  margin: 0;
+  color: #2b7fed;
+  font-size: 10px;
+}
+
 /*# sourceMappingURL=app.css.map */
