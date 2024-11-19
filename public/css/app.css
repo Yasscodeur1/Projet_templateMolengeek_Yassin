@@ -5,14 +5,12 @@
     padding: 0;
   }
 }
-.navbar {
+header .navbar .container-fluid {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
-.navbar .container-fluid .navbar-brand {
-  display: flex;
-  align-items: center;
+header .navbar .container-fluid .navbar-nav {
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=app.css.map */
