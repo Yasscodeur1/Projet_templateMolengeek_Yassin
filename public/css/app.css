@@ -5,6 +5,21 @@
     padding: 0;
   }
 }
+header .header-img {
+  height: 30em;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .header-img div {
+  display: flex;
+  flex-direction: column;
+}
+header .header-img div button {
+  width: 10rem;
+}
+
 header .navbar .container-fluid {
   display: flex;
   justify-content: space-around;
