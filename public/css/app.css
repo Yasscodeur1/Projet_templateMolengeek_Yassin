@@ -5,9 +5,12 @@
     padding: 0;
   }
 }
+header {
+  height: 35em;
+  overflow: hidden;
+}
 header .header {
-  position: relative;
-  height: 50em;
+  height: 35em;
   background-image: url(../img/hero-bg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -35,33 +38,38 @@ header .navbar .container-fluid .navbar-nav {
 }
 
 .featured {
+  margin-top: 3em;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5em 0 10em;
+  gap: 10px;
 }
-.featured span {
-  width: 10rem;
+.featured .badge {
+  width: 9rem;
   height: auto;
-  padding: 9px;
+  padding: 5px;
   margin: 0;
   color: #2b7fed;
+  background-color: #e6f0fc;
   font-size: 10px;
 }
+.featured h1 .read {
+  font-weight: bolder;
+}
 .featured .d-flex {
-  font-size: 10px;
+  height: 20rem;
   gap: 30px;
 }
 .featured .d-flex .bg-white {
-  width: 20em;
+  width: 19em;
   height: 20em;
+  text-align: start;
+  padding: 18px;
+  font-size: 10px;
 }
-.featured .d-flex .bg-white .fa-solid {
-  color: white;
-  background-color: blue;
-  border-radius: 50%;
-  font-size: 30px;
+.featured .d-flex .bg-white .fs-6 {
+  padding: 10px 0 10px 0;
 }
 
 /*# sourceMappingURL=app.css.map */
