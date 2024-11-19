@@ -1,3 +1,18 @@
-
+@media screen and (min-width: 1024px) {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .container-fluid .navbar-brand {
+  display: flex;
+  align-items: center;
+}
 
 /*# sourceMappingURL=app.css.map */
