@@ -5,32 +5,24 @@
     padding: 0;
   }
 }
-header .header-img {
+header .header {
   position: relative;
-  height: 30em;
+  height: 50em;
   background-image: url(../img/hero-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  opacity: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .header .header-img {
+  display: flex;
   align-items: center;
+  height: 40em;
+  background-color: rgba(255, 255, 255, 0.56);
+  padding: 0 0 0 10em;
 }
-header .header-img::before {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-header .header-img .header-title {
-  position: relative;
-  z-index: 2;
-}
-header .header-img div button {
+header .header .header-img .header-title button {
   width: 10rem;
 }
 
@@ -47,6 +39,7 @@ header .navbar .container-fluid .navbar-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 5em 0 10em;
 }
 .featured span {
   width: 10rem;
@@ -55,6 +48,20 @@ header .navbar .container-fluid .navbar-nav {
   margin: 0;
   color: #2b7fed;
   font-size: 10px;
+}
+.featured .d-flex {
+  font-size: 10px;
+  gap: 30px;
+}
+.featured .d-flex .bg-white {
+  width: 20em;
+  height: 20em;
+}
+.featured .d-flex .bg-white .fa-solid {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
