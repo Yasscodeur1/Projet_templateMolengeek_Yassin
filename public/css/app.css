@@ -149,4 +149,43 @@ main .carousel-inner .overlay-text {
   font-size: 11px;
 }
 
+.hardworking {
+  height: 40em;
+  background-color: #f7f9ff;
+  padding-top: 3rem;
+}
+.hardworking .hard {
+  text-align: center;
+}
+.hardworking .hard p {
+  font-size: 12px;
+}
+.hardworking .hard-work {
+  padding: 7px 15px 7px 15px;
+  margin-top: 5em;
+  color: #1c76eb;
+  border-radius: 20px;
+  background-color: #e6f0fc;
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 3em;
+}
+.hardworking .work {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.6em;
+}
+.hardworking .hard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hardworking .hard-container .row .col-md-3 {
+  width: 13.5em;
+}
+.hardworking .hard-container .row .col-md-3 .card .card-body {
+  font-size: 0.6em;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=app.css.map */
