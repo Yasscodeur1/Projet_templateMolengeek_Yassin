@@ -29,12 +29,56 @@ header .header .header-img .header-title button {
   width: 10rem;
 }
 
+header .navbar {
+  padding: 9px 18em 9px 18em;
+}
 header .navbar .container-fluid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
 }
-header .navbar .container-fluid .navbar-nav {
+header .navbar .container-fluid .collapse .navbar-nav {
   margin-left: auto;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+  font-size: 12px;
+  gap: 15px;
+}
+
+.featured {
+  margin-top: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.featured .badge {
+  width: 9rem;
+  height: auto;
+  padding: 5px;
+  margin: 0;
+  color: #2b7fed;
+  background-color: #e6f0fc;
+  font-size: 10px;
+}
+.featured h1 .read {
+  font-weight: bolder;
+}
+.featured .d-flex {
+  height: 20rem;
+  gap: 30px;
+}
+.featured .d-flex .bg-white {
+  width: 19em;
+  height: 20em;
+  text-align: start;
+  padding: 18px;
+  font-size: 10px;
+}
+.featured .d-flex .bg-white .fs-6 {
+  padding: 10px 0 10px 0;
 }
 
 .featured {
