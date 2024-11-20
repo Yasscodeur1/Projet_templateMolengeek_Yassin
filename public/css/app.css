@@ -102,4 +102,51 @@ main .carousel-inner .overlay-text {
   padding: 10px 20px;
 }
 
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-services .check {
+  text-align: center;
+}
+.our-services .our-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.our-services .our-container .our {
+  width: 17rem;
+  height: 20em;
+  text-align: center;
+  border: 1px solid #edf5ff;
+  padding: 3rem 15px 15px 15px;
+  font-size: 12px;
+}
+.our-services .our-container .our h5 {
+  margin: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.our-services .our-serv {
+  padding: 7px 15px 7px 15px;
+  margin-top: 5em;
+  color: #1c76eb;
+  border-radius: 20px;
+  background-color: #e6f0fc;
+  font-size: 9px;
+  font-weight: 700;
+}
+.our-services .servi {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.6em;
+}
+.our-services .check {
+  margin-top: 3em;
+}
+.our-services .check p {
+  font-size: 11px;
+}
+
 /*# sourceMappingURL=app.css.map */
