@@ -12,45 +12,257 @@
 <body>
     <header>
       <!-- navbar / Cette classe transforme un élément <nav> en une barre de navigation  -->
-        <nav class="navbar navbar-expand-lg bg-light ">
-          <!-- bg-light / Cette classe applique un fond de couleur claire à la barnav. -->
-            <div class="container-fluid">
-              <a class="navbar-brand text-dark" href="#">Molengeek<span class="text-primary">.</span></a>
-              <!-- text-dark / Cette classe applique une couleur noir au texte. -->
-              
-              <div class="" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link fs-6"href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Featured</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonials</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-        <div class="header">
-          <div class="header-img ">
-            <div class="header-title">
-              <h1>Welcome to <span class="text-primary">Molengeek</span></h1>
-              <p class="text-black-50 fs-5">Mon projet du vendredi</p>
-              <button class="bg-primary border-0 text-light">GET STARTED</button>
+      <nav class="navbar navbar-expand-lg bg-light" >
+        <!-- bg-light / Cette classe applique un fond de couleur claire à la barnav. -->
+          <div class="container-fluid">
+            <a class="navbar-brand text-dark fs-4" href="#">MolenGeek<span class="text-primary fs-3">.</span></a>
+            <!-- text-dark / Cette classe applique une couleur noir au texte. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
+      </nav>
+      <div class="header">
+        <div class="header-img ">
+          <div class="header-title">
+            <h1>Welcome to <span class="text-primary">Molengeek</span></h1>
+            <p class="text-black-50 fs-5">Mon projet du vendredi</p>
+            <button class="bg-primary border-0 text-light">GET STARTED</button>
+          </div>
         </div>
+      </div>
+    </header>
+  <main>
+    <!-- section featured services -->
+    <section class="featured">
+      <span class="badge rounded-pill">FEATURED SERVICES</span>
+      <h1 class="">Read <span class="text-primary fs-4">Featured Services</span></h1>
+      <div class="d-flex">
+        <div class="bg-white shadow ">
+          <svg class="bg-none" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 30 30" width="40" height="40">
+            <path d="m19.07 4.9297c-3.9023-3.9023-10.238-3.9023-14.141 0-3.9023 3.9023-3.9023 10.238 0 14.141 3.9023 3.9023 10.238 3.9023 14.141 0 3.9023-3.9023 3.9023-10.238 0-14.141zm-5.1445 9.3906c-1.5781 1.6328-2.7383 3.5195-3.4844 5.5273 1.8984 0.375 3.9102 0.054688 5.6211-0.95312-0.45703-1.6055-1.1719-3.1484-2.1367-4.5742zm-2.6562-3.0039c-1.8984 1.8945-4.1172 3.2734-6.4844 4.1406 0.37891 0.79688 0.89844 1.5391 1.5586 2.1992s1.4023 1.1797 2.1992 1.5586c0.86719-2.3672 2.2461-4.5859 4.1406-6.4844-0.21875-0.25-0.44531-0.49219-0.68359-0.73047s-0.48047-0.46484-0.73047-0.68359zm8.5781-0.875c-1.5742 0.58203-3.0742 1.4219-4.4336 2.5195 1.0117 1.4375 1.7891 2.9883 2.332 4.6055 1.8906-1.9531 2.5938-4.6328 2.1016-7.125zm-14.742-2.5039c-1.0078 1.7109-1.3281 3.7227-0.95312 5.6211 2.0078-0.74609 3.8945-1.9062 5.5273-3.4844-1.4258-0.96484-2.9688-1.6797-4.5742-2.1367zm10.352-3.1523c-0.65625 1.7891-1.6055 3.4961-2.8477 5.043 0.27344 0.24219 0.54297 0.49609 0.80469 0.75781 0.26172 0.26172 0.51563 0.53125 0.75781 0.80469 1.5469-1.2422 3.2539-2.1914 5.043-2.8477-0.37891-0.79688-0.89844-1.5391-1.5586-2.1992s-1.4023-1.1797-2.1992-1.5586zm-1.8984-0.63281c-2.4922-0.49219-5.1719 0.21094-7.125 2.1016 1.6172 0.54297 3.168 1.3203 4.6055 2.332 1.0977-1.3594 1.9375-2.8594 2.5195-4.4336z" fill="#106feb" fill-rule="evenodd"/>
+            <text x="0.0" y="117.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#000000">Created by Desainer Kanan</text>
+            <text x="0.0" y="122.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#000000">from Noun Project</text>
+          </svg>
+          <h5 class="fs-6">Lorem Ipsum</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, nisi?</p>
+        </div>
+        <div class="bg-white shadow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 30" width="40" height="40" fill="none" x="0px" y="0px">
+            <path d="M7.3 16C7.13431 16 7 16.1343 7 16.3V17.7C7 17.8657 7.13432 18 7.3 18H16.7C16.8657 18 17 17.8657 17 17.7V16.3C17 16.1343 16.8657 16 16.7 16H7.3Z" fill="#106feb"/>
+            <path d="M7 13.3C7 13.1343 7.13431 13 7.3 13H16.7C16.8657 13 17 13.1343 17 13.3V14.7C17 14.8657 16.8657 15 16.7 15H7.3C7.13432 15 7 14.8657 7 14.7V13.3Z" fill="#106feb"/>
+            <path d="M7.3 10C7.13431 10 7 10.1343 7 10.3V11.7C7 11.8657 7.13431 12 7.3 12H10.7C10.8657 12 11 11.8657 11 11.7V10.3C11 10.1343 10.8657 10 10.7 10H7.3Z" fill="#106feb"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 2C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V9.18496C20 9.06561 19.9573 8.95019 19.8796 8.85957L14.1497 2.1746C14.0547 2.06378 13.916 2 13.77 2H4.5ZM6 4V20H18V11H12.5C12.2239 11 12 10.7761 12 10.5V4H6ZM14 5.07318L17.3658 9H14V5.07318Z" fill="#106feb"/>
+            <text x="0" y="39" fill="#000000" font-size="3px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Dayeong Kim</text><text x="0" y="44" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+          <h5 class="fs-6">Set ut perspiciatis</h5>
+          <p>Lorem ipsum, dolor sit <br>amet consectetur adipisicing elit. Id, ipsum!</p>
+        </div>
+        <div class="bg-white shadow">
+          <svg fill="#106feb" width="38px" height="38px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4C6.486 4 2 8.486 2 14a9.89 9.89 0 0 0 1.051 4.445c.17.34.516.555.895.555h16.107c.379 0 .726-.215.896-.555A9.89 9.89 0 0 0 22 14c0-5.514-4.486-10-10-10zm7.41 13H4.59A7.875 7.875 0 0 1 4 14c0-4.411 3.589-8 8-8s8 3.589 8 8a7.875 7.875 0 0 1-.59 3z"/>
+            <path d="M10.939 12.939a1.53 1.53 0 0 0 0 2.561 1.53 1.53 0 0 0 2.121-.44l3.962-6.038a.034.034 0 0 0 0-.035.033.033 0 0 0-.045-.01l-6.038 3.962z"/>
+          </svg>
+          <h5 class="fs-6">migni Dolores</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. asperiores.</p>
+        </div>
+        <div class="bg-white shadow">
+          <svg width="38px" height="38px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#106feb"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+            <circle cx="12" cy="12" r="9" stroke="#106feb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            </circle><path fill="#106feb" stroke="#106feb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6h.5a2 2 0 0 0 2-2C8.4 1.2 4.5 6.5 3.5 9.5l4.167 5.093c.215.263.333.593.333.933C8 16.34 8.673 17 9.487 17c.828 0 1.513.672 1.513 1.5V21c2.167-.167 6.8-1.2 8-4h-1a2 2 0 0 1-2-2 2 2 0 0 0-2-2h-2a2 2 0 0 1-2-2v-1a1 1 0 0 1 1-1 1 1 0 0 0 1-1v-.5A1.5 1.5 0 0 1 13.5 6z"></path></g>
+          </svg>
+          <h5 class="fs-6">Nemo Inim</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, accusamus?</p>
+        </div>
+      </div>
+    </section>
+    <!-- section Testimonials -->
+    <section>
+      <!-- le carousel de bootstrap remasteriser  -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div>
+              <img class="w-75 " src="./public/img/testi.jpg" class="d-block w-100" alt="...">
+            <!-- j'utilise la position-absolute pour calquer mon texte par desus l'image start-50 pour que l'image commence au centre de ma div-->
+            <img class="w-75 position-absolute start-50 " src="./public/img/testi.jpg" class="d-block w-100" alt="...">
+            <!-- j'utilise la position-absolute pour calquer les image l'une à cote de l'autre top-50 et start-50 pour centrer l'element-->
+            <div class="overlay-text position-absolute top-50 start-0  text-center text-white">
+              <h1 class="text-primary">Testimonial 3</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa veniam quis tenetur quae asperiores minus repellendus nam sint nostrum.</p>
+            </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- section check our services -->
+    <section class="our-services">
+      <div class="check">
+        <span class="our-serv">SERVICES</span>
+        <h1 class="servi ">Check our <span class="text-primary ">Services</span></h1>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci <br>expedita at voluptas atque vitae autem</p>
+      </div>
+
+      <div class="our-container ">
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #dceafc; border-radius: 5px;" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-13 -13 50 50" width="50px" height="50px" >
+            <path d="m19.07 4.9297c-3.9023-3.9023-10.238-3.9023-14.141 0-3.9023 3.9023-3.9023 10.238 0 14.141 3.9023 3.9023 10.238 3.9023 14.141 0 3.9023-3.9023 3.9023-10.238 0-14.141zm-5.1445 9.3906c-1.5781 1.6328-2.7383 
+            3.5195-3.4844 5.5273 1.8984 0.375 3.9102 0.054688 5.6211-0.95312-0.45703-1.6055-1.1719-3.1484-2.1367-4.5742zm-2.6562-3.0039c-1.8984 1.8945-4.1172 3.2734-6.4844 4.1406 0.37891 0.79688 0.89844 1.5391 1.5586 2.1992s1.4023 1.1797 2.1992 1.5586c0.86719-2.3672 2.2461-4.5859 4.1406-6.4844-0.21875-0.25-0.44531-0.49219-0.68359-0.73047s-0.48047-0.46484-0.73047-0.68359zm8.5781-0.875c-1.5742 0.58203-3.0742 1.4219-4.4336 2.5195 1.0117 1.4375 1.7891 2.9883 2.332 4.6055 1.8906-1.9531 2.5938-4.6328 2.1016-7.125zm-14.742-2.5039c-1.0078 1.7109-1.3281 3.7227-0.95312 5.6211 2.0078-0.74609 3.8945-1.9062 5.5273-3.4844-1.4258-0.96484-2.9688-1.6797-4.5742-2.1367zm10.352-3.1523c-0.65625 1.7891-1.6055 3.4961-2.8477 5.043 0.27344 0.24219 0.54297 0.49609 0.80469 0.75781 0.26172 0.26172 0.51563 0.53125 0.75781 0.80469 1.5469-1.2422 3.2539-2.1914 5.043-2.8477-0.37891-0.79688-0.89844-1.5391-1.5586-2.1992s-1.4023-1.1797-2.1992-1.5586zm-1.8984-0.63281c-2.4922-0.49219-5.1719 0.21094-7.125 2.1016 1.6172 0.54297 3.168 1.3203 4.6055 2.332 1.0977-1.3594 1.9375-2.8594 2.5195-4.4336z" fill="#3a8af2" fill-rule="evenodd"/>
+            <text x="0.0" y="117.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#3a8af2">Created by Desainer Kanan</text>
+            <text x="0.0" y="122.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#3a8af2">from Noun Project</text>
+          </svg>
+          <h5>Lorem Ipsum</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, quasi.</p>
+        </div>
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #6c9ce832; border-radius: 5px;"  xmlns="http://www.w3.org/2000/svg" viewBox="-13 -13 50 50" width="50" height="50" fill="none" x="0px" y="0px">
+            <path d="M7.3 16C7.13431 16 7 16.1343 7 16.3V17.7C7 17.8657 7.13432 18 7.3 18H16.7C16.8657 18 17 17.8657 17 17.7V16.3C17 16.1343 16.8657 16 16.7 16H7.3Z" fill="#3a8af2"/>
+            <path d="M7 13.3C7 13.1343 7.13431 13 7.3 13H16.7C16.8657 13 17 13.1343 17 13.3V14.7C17 14.8657 16.8657 15 16.7 15H7.3C7.13432 15 7 14.8657 7 14.7V13.3Z" fill="#3a8af2"/>
+            <path d="M7.3 10C7.13431 10 7 10.1343 7 10.3V11.7C7 11.8657 7.13431 12 7.3 12H10.7C10.8657 12 11 11.8657 11 11.7V10.3C11 10.1343 10.8657 10 10.7 10H7.3Z" fill="#3a8af2"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 2C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V9.18496C20 9.06561 19.9573 8.95019 19.8796 8.85957L14.1497 2.1746C14.0547 2.06378 13.916 2 13.77 2H4.5ZM6 4V20H18V11H12.5C12.2239 11 12 10.7761 12 10.5V4H6ZM14 5.07318L17.3658 9H14V5.07318Z" fill="#3a8af2"/>
+            <text x="0" y="39" fill="#3a8af2" font-size="3px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Dayeong Kim</text><text x="0" y="44" fill="#3a8af2" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+
+          <h5>Set ut perspiciatis</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, doloribus!</p>
+        </div>
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #6c9ce832; border-radius: 5px;" width="50px" height="50px" viewBox="-13 -13 50 50" fill="#3a8af2" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4C6.486 4 2 8.486 2 14a9.89 9.89 0 0 0 1.051 4.445c.17.34.516.555.895.555h16.107c.379 0 .726-.215.896-.555A9.89 9.89 0 0 0 22 14c0-5.514-4.486-10-10-10zm7.41 13H4.59A7.875 7.875 0 0 1 4 14c0-4.411 3.589-8 8-8s8 3.589 8 8a7.875 7.875 0 0 1-.59 3z"/>
+            <path d="M10.939 12.939a1.53 1.53 0 0 0 0 2.561 1.53 1.53 0 0 0 2.121-.44l3.962-6.038a.034.034 0 0 0 0-.035.033.033 0 0 0-.045-.01l-6.038 3.962z"/>
+          </svg>
+          <h5>Magni Dolores</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magni?</p>
+        </div>
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #6c9ce832; border-radius: 5px;" width="50px" height="50px" viewBox="-13 -13 50 50" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#3a8af2"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+            <circle cx="12" cy="12" r="9" stroke="#3a8af2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            </circle><path fill="#3a8af2" stroke="#3a8af2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6h.5a2 2 0 0 0 2-2C8.4 1.2 4.5 6.5 3.5 9.5l4.167 5.093c.215.263.333.593.333.933C8 16.34 8.673 17 9.487 17c.828 0 1.513.672 1.513 1.5V21c2.167-.167 6.8-1.2 8-4h-1a2 2 0 0 1-2-2 2 2 0 0 0-2-2h-2a2 2 0 0 1-2-2v-1a1 1 0 0 1 1-1 1 1 0 0 0 1-1v-.5A1.5 1.5 0 0 1 13.5 6z"></path></g>
+          </svg>
+          <h5>Nemo Enim</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, enim!</p>
+        </div>
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #6c9ce832; border-radius: 5px;" width="50px" height="50px"  xmlns="http://www.w3.org/2000/svg" viewBox="-13 -13 50 50" fill="none" x="0px" y="0px">
+            <path d="M10 12.0793C10 12.8884 10.9107 13.3625 11.5735 12.8986L13.8297 11.3192C14.3984 10.9211 14.3984 10.0789 13.8297 9.68077L11.5735 8.10142C10.9107 7.63748 10 8.11163 10 8.92066V12.0793Z" fill="#3a8af2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5 17C3.34315 17 2 15.6569 2 14V7C2 5.34315 3.34315 4 5 4H19C20.6569 4 22 5.34315 22 7V14C22 15.6569 20.6569 17 19 17H13V18H14C14.5523 18 15 18.4477 15 19C15 19.5523 14.5523 20 14 20H10C9.44772 20 9 19.5523 9 19C9 18.4477 9.44772 18 10 18H11V17H5ZM4 7C4 6.44772 4.44772 6 5 6H19C19.5523 6 20 6.44772 20 7V14C20 14.5523 19.5523 15 19 15H5C4.44772 15 4 14.5523 4 14V7Z" fill="#3a8af2"/><text x="0" y="39" fill="#3a8af2" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"></text>
+            <text x="0" y="44" fill="#3a8af2" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text>
+          </svg>
+          <h5>Dele cardo</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sapiente?</p>
+        </div>
+
+        <div class="our">
+          <svg class="bg-none " style="background-color: #f2f7ff; border: 1px solid #6c9ce832; border-radius: 5px;" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-50 -50 200 200">
+            <g>
+            <path d="m81.25 87.238h-19.188v-30.125c-0.003906-4.4688-3.625-8.0898-8.0938-8.0938h-7.2812c-4.4766 0-8.1094 3.6172-8.125 8.0938v30.125h-19.812v-62.5h62.5zm-12.938-6.25h6.6875v-50h-50v50h7.3125v-23.875c0.007812-3.8086 1.5273-7.457 4.2227-10.145 2.6953-2.6914 6.3438-4.1992 10.152-4.1992h7.2812c3.8008 0.007813 7.4453 1.5195 10.133 4.2109 2.6875 2.6875 4.2031 6.332 4.2109 10.133z"fill="#3a8af2"/>
+            <path d="m65.188 80.988h25.438v6.25h-25.438z" fill="#3a8af2"/>
+            <path d="m9.375 80.988h26.062v6.25h-26.062z" fill="#3a8af2"/>
+            <path d="m90.625 30.988h-81.25c-1.7266 0-3.125-1.3984-3.125-3.125v-11.977c0-1.7266 1.3984-3.125 3.125-3.125h81.25c0.82812 0 1.625 0.32812 2.2109 0.91797 0.58594 0.58594 0.91406 1.3789 0.91406 2.207v11.977c0 0.82812-0.32812 1.6211-0.91406 2.207-0.58594 0.58984-1.3828 0.91797-2.2109 0.91797zm-78.125-6.25h75v-5.7266h-75z" fill="#3a8af2"/>
+            </g>
+            <text x="0.0" y="117.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#3a8af2"></text>
+            <text x="0.0" y="122.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#3a8af2"></text>
+          </svg>
+          <h5>Divera don</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sit!</p>
+        </div>
+
+      </div>
+    </section>
+    <section class="hardworking">
+      <div class="hard">
+        <span class="hard-work">TEAM</span>
+        <h1 class="work ">Our Hardworking<span class="text-primary "> Team</span></h1>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci <br>expedita at voluptas atque vitae autem</p>
+      </div>
+
+      <div class="hard-container d-flex justify-content-center">
+        <div class="row ">
+          <div class="col-md-3">
+            <div class="card shadow-sm border-0 rounded-bottom-1" style="width: 100%;">
+              <img class="rounded-top-1" src="./public/img/team/team-1.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title fs-6">Walter white</h5>
+                <p class="card-text text-black-50">Chief Excutive Officer</p>
+              </div>
+            </div>
+          </div>  
+          <div class="col-md-3">
+            <div class="card shadow-sm border-0 rounded-bottom-1" style="width: 100%;">
+              <img class="rounded-top-1" src="./public/img/team/team-2.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title fs-6">Warah Jhonson</h5>
+                <p class="card-text text-black-50">Product Manager</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="card shadow-sm border-0 rounded-bottom-1" style="width: 100%;">
+              <img class="rounded-top-1" src="./public/img/team/team-3.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title fs-6">William Anderson</h5>
+                <p class="card-text text-black-50">CTO</p>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-3">
+            <div class="card shadow-sm border-0 rounded-bottom-1" style="width: 100%;">
+              <img class="rounded-top-1" src="./public/img/team/team-4.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title fs-6 p-0">Amanda Jepson</h5>
+                <p class="card-text text-black-50">Accountant</p>
+              </div>
+            </div>  
+          </div> 
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
   </body>
