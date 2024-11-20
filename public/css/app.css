@@ -27,8 +27,16 @@ header .header .header-img {
 }
 header .header .header-img .header-title h1 {
   font-weight: 900;
+  padding: 2.5em 0 0 19.5em;
+}
+header .header .header-img .header-title h1 {
+  font-weight: 900;
 }
 header .header .header-img .header-title button {
+  width: 7rem;
+  height: 3em;
+  border-radius: 3px;
+  font-size: 10.5px;
   width: 7rem;
   height: 3em;
   border-radius: 3px;
@@ -38,16 +46,15 @@ header .header .header-img .header-title button {
 header .navbar {
   padding: 9px 18em 9px 18em;
 }
+header .navbar {
+  padding: 9px 18em 9px 18em;
+}
 header .navbar .container-fluid {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-weight: 600;
-  justify-content: space-evenly;
-  align-items: center;
-  font-weight: 600;
 }
-header .navbar .container-fluid .collapse .navbar-nav {
 header .navbar .container-fluid .collapse .navbar-nav {
   margin-left: auto;
 }
