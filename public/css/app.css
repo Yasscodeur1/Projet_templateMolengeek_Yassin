@@ -92,5 +92,14 @@ main .featured .d-flex .bg-white {
 main .featured .d-flex .bg-white .fs-6 {
   padding: 10px 0 10px 0;
 }
+main .carousel-inner .carousel-item .position-absolute {
+  margin-left: 22.5em;
+}
+main .carousel-inner .overlay-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px 20px;
+}
 
 /*# sourceMappingURL=app.css.map */
