@@ -94,5 +94,10 @@ main .featured .d-flex .bg-white {
 main .featured .d-flex .bg-white .fs-6 {
   padding: 10px 0 10px 0;
 }
+main .testimonial {
+  background-image: url(../img/testi.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /*# sourceMappingURL=app.css.map */
