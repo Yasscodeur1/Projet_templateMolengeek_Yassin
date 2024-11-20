@@ -52,7 +52,11 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
   gap: 15px;
 }
 
-.featured {
+main {
+  width: 100%;
+  height: auto;
+}
+main .featured {
   margin-top: 3em;
   text-align: center;
   display: flex;
@@ -60,7 +64,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
   align-items: center;
   gap: 10px;
 }
-.featured .badge {
+main .featured .badge {
   width: 9rem;
   height: auto;
   padding: 5px;
@@ -69,21 +73,25 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
   background-color: #e6f0fc;
   font-size: 10px;
 }
-.featured h1 .read {
-  font-weight: bolder;
+main .featured h1 {
+  font-size: 1.5em;
+  font-weight: 700;
 }
-.featured .d-flex {
+main .featured h1 .read {
+  font-weight: 700;
+}
+main .featured .d-flex {
   height: 20rem;
   gap: 30px;
 }
-.featured .d-flex .bg-white {
+main .featured .d-flex .bg-white {
   width: 19em;
   height: 20em;
   text-align: start;
   padding: 18px;
   font-size: 10px;
 }
-.featured .d-flex .bg-white .fs-6 {
+main .featured .d-flex .bg-white .fs-6 {
   padding: 10px 0 10px 0;
 }
 
