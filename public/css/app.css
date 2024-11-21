@@ -6,11 +6,10 @@
   }
 }
 header {
-  height: calc(auto - 5em);
+  height: 36em;
   overflow: hidden;
 }
 header .header {
-  height: 35em;
   background-image: url(../img/hero-bg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +22,7 @@ header .header .header-img {
   align-items: center;
   height: 40em;
   background-color: rgba(255, 255, 255, 0.56);
-  padding: 2.5em 0 0 19.5em;
+  padding: 2.5em 0 5.3em 19em;
 }
 header .header .header-img .header-title h1 {
   font-weight: 900;
@@ -102,6 +101,9 @@ main .carousel-inner .carousel-item {
 main .carousel-inner .carousel-item #img1 {
   width: 70%;
 }
+main .carousel-inner .carousel-item .img2 .carousel-captain {
+  bottom: !important 50rem;
+}
 
 .our-services {
   display: flex;
@@ -115,6 +117,7 @@ main .carousel-inner .carousel-item #img1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  padding-bottom: 5rem;
 }
 .our-services .our-container .our {
   width: 17rem;
@@ -151,7 +154,7 @@ main .carousel-inner .carousel-item #img1 {
 }
 
 .hardworking {
-  height: 40em;
+  height: 32em;
   background-color: #f7f9ff;
   padding-top: 3rem;
 }
@@ -188,6 +191,7 @@ main .carousel-inner .carousel-item #img1 {
   font-size: 0.6em;
   font-weight: 500;
 }
+
 .cont {
   text-align: center;
 }
@@ -253,6 +257,7 @@ main .carousel-inner .carousel-item #img1 {
 .map-form {
   display: flex;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 .map-form .form {
   width: 25rem;
