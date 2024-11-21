@@ -6,11 +6,10 @@
   }
 }
 header {
-  height: 35em;
+  height: 36em;
   overflow: hidden;
 }
 header .header {
-  height: 35em;
   background-image: url(../img/hero-bg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +22,7 @@ header .header .header-img {
   align-items: center;
   height: 40em;
   background-color: rgba(255, 255, 255, 0.56);
-  padding: 2.5em 0 0 19.5em;
+  padding: 2.5em 0 5.3em 19em;
 }
 header .header .header-img .header-title h1 {
   font-weight: 900;
@@ -99,25 +98,100 @@ main .carousel-inner {
 }
 main .carousel-inner .carousel-item {
   filter: brightness(0.3);
+  transform: translateY(-10%);
 }
 main .carousel-inner .carousel-item #img1 {
-  width: 67%;
+  width: 70%;
 }
-main .carousel-inner .carousel-caption {
-  width: 75%;
+main .carousel-inner .carousel-item .img2 .carousel-captain {
+  bottom: !important 50rem;
+}
+
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-services .check {
+  text-align: center;
+}
+.our-services .our-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-bottom: 5rem;
+}
+.our-services .our-container .our {
+  width: 17rem;
+  height: 20em;
+  text-align: center;
+  border: 1px solid #edf5ff;
+  padding: 3rem 15px 15px 15px;
   font-size: 12px;
 }
-main .carousel-inner .carousel-caption h1 {
-  font-size: 25px;
-  line-height: 32px;
+.our-services .our-container .our h5 {
+  margin: 10px;
+  font-size: 17px;
+  font-weight: 700;
 }
-main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-prev-icon {
-  width: 50px;
-  height: 50px;
+.our-services .our-serv {
+  padding: 7px 15px 7px 15px;
+  margin-top: 5em;
+  color: #1c76eb;
+  border-radius: 20px;
+  background-color: #e6f0fc;
+  font-size: 9px;
+  font-weight: 700;
 }
-main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-next-icon {
-  width: 50px;
-  height: 50px;
+.our-services .servi {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.6em;
+}
+.our-services .check {
+  margin-top: 3em;
+}
+.our-services .check p {
+  font-size: 11px;
+}
+
+.hardworking {
+  height: 32em;
+  background-color: #f7f9ff;
+  padding-top: 3rem;
+}
+.hardworking .hard {
+  text-align: center;
+}
+.hardworking .hard p {
+  font-size: 12px;
+}
+.hardworking .hard-work {
+  padding: 7px 15px 7px 15px;
+  margin-top: 5em;
+  color: #1c76eb;
+  border-radius: 20px;
+  background-color: #e6f0fc;
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 3em;
+}
+.hardworking .work {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.6em;
+}
+.hardworking .hard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hardworking .hard-container .row .col-md-3 {
+  width: 13.5em;
+}
+.hardworking .hard-container .row .col-md-3 .card .card-body {
+  font-size: 0.6em;
+  font-weight: 500;
 }
 
 .cont {
