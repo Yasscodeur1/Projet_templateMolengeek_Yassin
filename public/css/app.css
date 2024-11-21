@@ -6,7 +6,7 @@
   }
 }
 header {
-  height: 35em;
+  height: calc(auto - 5em);
   overflow: hidden;
 }
 header .header {
@@ -92,14 +92,15 @@ main .featured .d-flex .bg-white {
 main .featured .d-flex .bg-white .fs-6 {
   padding: 10px 0 10px 0;
 }
-main .carousel-inner .carousel-item .position-absolute {
-  margin-left: 22.5em;
+main .carousel-inner {
+  height: 25rem;
 }
-main .carousel-inner .overlay-text {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  color: white;
-  padding: 10px 20px;
+main .carousel-inner .carousel-item {
+  filter: brightness(0.3);
+  transform: translateY(-10%);
+}
+main .carousel-inner .carousel-item #img1 {
+  width: 70%;
 }
 
 .our-services {
