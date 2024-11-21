@@ -98,13 +98,25 @@ main .carousel-inner {
 }
 main .carousel-inner .carousel-item {
   filter: brightness(0.3);
-  transform: translateY(-10%);
 }
 main .carousel-inner .carousel-item #img1 {
-  width: 70%;
+  width: 67%;
 }
-main .carousel-inner .carousel-item .img2 .carousel-captain {
-  bottom: !important 50rem;
+main .carousel-inner .carousel-caption {
+  width: 75%;
+  font-size: 12px;
+}
+main .carousel-inner .carousel-caption h1 {
+  font-size: 25px;
+  line-height: 32px;
+}
+main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
 }
 
 .our-services {
