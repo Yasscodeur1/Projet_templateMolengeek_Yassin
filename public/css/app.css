@@ -6,11 +6,10 @@
   }
 }
 header {
-  height: 35em;
+  height: 36em;
   overflow: hidden;
 }
 header .header {
-  height: 35em;
   background-image: url(../img/hero-bg.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +22,7 @@ header .header .header-img {
   align-items: center;
   height: 40em;
   background-color: rgba(255, 255, 255, 0.56);
-  padding: 2.5em 0 0 19.5em;
+  padding: 2.5em 0 5.3em 19em;
 }
 header .header .header-img .header-title h1 {
   font-weight: 900;
@@ -55,9 +54,10 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item a {
 main {
   width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 main .featured {
-  margin-top: 3em;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -65,7 +65,8 @@ main .featured {
   gap: 10px;
 }
 main .featured .badge {
-  padding: 5px;
+  width: 9rem;
+  padding: 7px;
   margin: 0;
   color: #2b7fed;
   background-color: #e6f0fc;
@@ -78,28 +79,46 @@ main .featured h1 {
 main .featured h1 .read {
   font-weight: 700;
 }
-main .featured .d-flex {
-  height: 20rem;
+main .featured .d-lg-flex {
   gap: 30px;
 }
-main .featured .d-flex .bg-white {
+main .featured .d-lg-flex .bg-white {
   width: 19em;
-  height: 20em;
+  height: 18em;
   text-align: start;
   padding: 18px;
   font-size: 10px;
+  line-height: 22px;
+  font-weight: 500;
+  border-radius: 7px;
+  box-shadow: -5px 0px 20px rgba(119, 119, 146, 0.1529411765);
 }
-main .featured .d-flex .bg-white .fs-6 {
-  padding: 10px 0 10px 0;
+main .featured .d-lg-flex .bg-white p {
+  color: #808180;
+  font-size: 12px;
 }
-main .carousel-inner .carousel-item .position-absolute {
-  margin-left: 22.5em;
+main .featured .d-lg-flex .bg-white .feat-h5 {
+  padding-top: 10px;
+  font-weight: 500;
 }
-main .carousel-inner .overlay-text {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  color: white;
-  padding: 10px 20px;
+main .carousel-inner .carousel-item {
+  filter: brightness(0.3);
+}
+main .carousel-inner .carousel-caption {
+  width: 75%;
+  font-size: 12px;
+}
+main .carousel-inner .carousel-caption h1 {
+  font-size: 25px;
+  line-height: 32px;
+}
+main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-prev-icon {
+  width: 50%;
+  height: 50%;
+}
+main .carousel-inner .carousel-caption .carousel-control-prev .carousel-control-next-icon {
+  width: 50%;
+  height: 50%;
 }
 
 .our-services {
@@ -120,7 +139,6 @@ main .carousel-inner .overlay-text {
   height: 20em;
   text-align: center;
   border: 1px solid #edf5ff;
-  padding: 3rem 15px 15px 15px;
   font-size: 12px;
 }
 .our-services .our-container .our h5 {
@@ -150,7 +168,7 @@ main .carousel-inner .overlay-text {
 }
 
 .hardworking {
-  height: 40em;
+  height: 32em;
   background-color: #f7f9ff;
   padding-top: 3rem;
 }
@@ -186,6 +204,97 @@ main .carousel-inner .overlay-text {
 .hardworking .hard-container .row .col-md-3 .card .card-body {
   font-size: 0.6em;
   font-weight: 500;
+}
+
+.cont {
+  text-align: center;
+}
+.cont p {
+  font-size: 12px;
+}
+.cont .cont-tact {
+  padding: 7px 15px 7px 15px;
+  margin-top: 5em;
+  color: #1c76eb;
+  border-radius: 20px;
+  background-color: #e6f0fc;
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 3em;
+}
+.cont .tact {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0.6em;
+}
+
+.d-flex .position {
+  width: 25rem;
+  color: #929299;
+  text-align: center;
+}
+.d-flex .position a {
+  text-decoration-line: none;
+  color: #929299;
+  font-size: 12px;
+}
+.d-flex .position svg {
+  border: dotted #b6d3fa;
+}
+.d-flex .mail {
+  width: 12rem;
+  color: #929299;
+  text-align: center;
+}
+.d-flex .mail a {
+  text-decoration-line: none;
+  color: #929299;
+  font-size: 12px;
+}
+.d-flex .mail svg {
+  border: dotted #b6d3fa;
+}
+.d-flex .phone {
+  width: 12rem;
+  color: #929299;
+  text-align: center;
+}
+.d-flex .phone svg {
+  border: dotted #b6d3fa;
+}
+.d-flex .phone a {
+  text-decoration-line: none;
+  color: #929299;
+  font-size: 12px;
+}
+
+.map-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.map-form .form {
+  width: 25.5rem;
+}
+.map-form .form-control {
+  color: #8b9299;
+  font-size: 9px;
+}
+.map-form .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.pied-page {
+  height: 6em;
+  color: #8b9299;
+  text-align: center;
+  font-size: 10px;
+  background-color: #f7f9ff;
+}
+.pied-page span {
+  color: #595146;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=app.css.map */
