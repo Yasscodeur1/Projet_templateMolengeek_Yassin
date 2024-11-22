@@ -5,6 +5,13 @@
     padding: 0;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 599px) {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
 header {
   height: 36em;
   overflow: hidden;
